@@ -8,10 +8,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        marrom: "#833B05",
+        laranja: "#B6630A",
+        amarelo: "#D99729",
+        gema: "#ECC470",
+        cinza: "#CBCBCB",
+        offwhite: "#EFEFEF"
+      },
+      fontFamily: {
+        'body': 'Roboto',
+        'title': "Fjalla One"
       },
     },
   },
