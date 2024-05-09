@@ -6,8 +6,8 @@ export default function AboutUs() {
 		<div className="h-screen flex flex-col">
 			<Header />
 
-			<main className="flex h-full">
-				<div className="flex flex-col w-1/2 px-10 items-center justify-center gap-24">
+			<main className="grid h-full mt-8 md:grid-cols-2 w-full">
+				<div className="flex flex-col px-10 items-center justify-center gap-12">
 					<div className="flex flex-col items-center justify-center gap-10">
 						<span className="text-7xl font-title">Quem Somos?</span>
 						<p className="w-3/4 text-2xl font-body">Somos a Clínica Dermatológica DermaTania, um espaço acolhedor dedicado à saúde e beleza da sua pele. Com uma equipe de profissionais experientes e apaixonados por dermatologia, oferecemos atendimento personalizado e de alta qualidade para atender às suas necessidades individuais.</p>
@@ -15,7 +15,7 @@ export default function AboutUs() {
 					<Image src="/equipe.png" alt="" width={540} height={360}/>
 				</div>
 
-				<div className="flex flex-col w-1/2 px-10 items-center justify-center gap-24">
+				<div className="flex flex-col	 px-10 items-center justify-center gap-12">
 					<Image src="/tania2.png" alt="" width={315} height={350}/>
 					<div className="flex flex-col items-center justify-center gap-10">
 						<span className="text-7xl font-title">Valores:</span>
